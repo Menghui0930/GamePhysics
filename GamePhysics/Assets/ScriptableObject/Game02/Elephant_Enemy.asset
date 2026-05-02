@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d42b90b6b910f41b78de10e1b7fb5a, type: 3}
+  m_Name: Elephant_Enemy
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: Elephant
+  prefabRun: {fileID: 555664113193133102, guid: 8964b6c8feee0e64a8f488f11a52e712, type: 3}
+  mass: 0
+  speed: 0

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f96fbb8448858c4caf873c364f31227, type: 3}
+  m_Name: Bear
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  animalName: 
+  prefabCard: {fileID: 1483528593593614100, guid: f2e0092018922fe41a482ac6f9c47a0d, type: 3}
+  prefab: {fileID: 307488429841112057, guid: 3d9352c3c7830f141a673acb10e9c19f, type: 3}
+  prefabRun: {fileID: 307488429841112057, guid: e9258c13c04ff4240af8d0ff8d33763b, type: 3}
+  mass: 0
+  speed: 0

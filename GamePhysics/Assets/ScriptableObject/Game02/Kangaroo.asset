@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f96fbb8448858c4caf873c364f31227, type: 3}
+  m_Name: Kangaroo
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  animalName: 
+  prefabCard: {fileID: 8274397583319209201, guid: 9b466b6b40d1f2345b94d6b01869aba8, type: 3}
+  prefab: {fileID: 7162643291195351351, guid: 8bf09a000d17e674aac8e238f9e4063e, type: 3}
+  prefabRun: {fileID: 7162643291195351351, guid: 7d44be0e4db7f2f479580562fd34a05f, type: 3}
+  mass: 0
+  speed: 0

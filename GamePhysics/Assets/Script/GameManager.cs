@@ -84,8 +84,6 @@ public class GameManager : MonoBehaviour {
         }
         state = State.GameOver;
 
-        // 你可以在这里显示 Game Over UI
-        // gameOverPanel.SetActive(true);
     }
 
     public void Restart() {

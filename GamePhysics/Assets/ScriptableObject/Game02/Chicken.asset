@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f96fbb8448858c4caf873c364f31227, type: 3}
+  m_Name: Chicken
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  animalName: 
+  prefabCard: {fileID: 6954932493438141913, guid: a05c7d73a3ad8744db0c940aba07fa04, type: 3}
+  prefab: {fileID: 8918148166399042608, guid: 703223b081ce17a40acc9130e7d8de23, type: 3}
+  prefabRun: {fileID: 8918148166399042608, guid: 039299c6f8d94814eb7128ad083b482f, type: 3}
+  mass: 0
+  speed: 0

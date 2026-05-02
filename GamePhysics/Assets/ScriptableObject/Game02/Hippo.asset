@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f96fbb8448858c4caf873c364f31227, type: 3}
+  m_Name: Hippo
+  m_EditorClassIdentifier: Assembly-CSharp::AnimalData
+  animalName: 
+  prefabCard: {fileID: 1355817229979674446, guid: e0bda233855c67d44a6d17fe5ef98414, type: 3}
+  prefab: {fileID: 5644804814544650038, guid: a5e061d418ce76d4ea215409964ae887, type: 3}
+  prefabRun: {fileID: 5644804814544650038, guid: 4511e4f15160c99458625fc27ffa0a94, type: 3}
+  mass: 0
+  speed: 0
