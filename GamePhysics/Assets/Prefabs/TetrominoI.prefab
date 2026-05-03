@@ -77,11 +77,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 897f948fc4d407545a9e8731e54427bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlockController
+  moveLeft:
+    m_Name: Move Left
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: d99afdb5-1c65-4c23-a1c8-79626278138b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: a6cac5e7-20cf-4069-92a5-4b8bfbee72d2
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move Left
+      m_Flags: 0
+    m_Flags: 0
+  moveRight:
+    m_Name: Move Right
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: adaead8a-58e6-4fdf-a650-ea40abd7b768
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
   moveSpeed: 3
   fallSpeed: 2
   fastFallMultiplier: 3
   spawner: {fileID: 0}
   dropIndicator: {fileID: 0}
+  heightLine: {fileID: 0}
+  heightText: {fileID: 0}
+  heightLineMoveSpeed: 2
 --- !u!61 &3780913467351961942
 BoxCollider2D:
   m_ObjectHideFlags: 0

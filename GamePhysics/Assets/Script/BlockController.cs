@@ -12,11 +12,13 @@ public class BlockController : MonoBehaviour
     private InputAction playerMovement;
     private InputAction rotateCW;
     private InputAction rotateCCW;
+    private InputAction moveLeft, moveRight;
 
     [Header("Movement Settings")]
     public float moveSpeed = 3f;          
     public float fallSpeed = 2f;
     public float fastFallMultiplier = 3f;
+    public float horizontalMovementScale = 0.5f;
 
     [Header("References")]
     public BlockSpawner spawner;        
@@ -40,6 +42,8 @@ public class BlockController : MonoBehaviour
         playerMovement = InputSystem.actions.FindAction("Move");
         rotateCW = InputSystem.actions.FindAction("RotateCW");
         rotateCCW = InputSystem.actions.FindAction("RotateCCW");
+        moveLeft = InputSystem.actions.FindAction("Left");
+        moveRight = InputSystem.actions.FindAction("Right");
 
         theRB = GetComponent<Rigidbody2D>();
         theRB.gravityScale = 0f;
@@ -54,6 +58,7 @@ public class BlockController : MonoBehaviour
         ApplyFalling();
         HandleRotation();
         FollowIndicator();
+        //quantumHorizontalMovement();
         //UpdateHeightLine();
     }
 
@@ -64,6 +69,19 @@ public class BlockController : MonoBehaviour
         _verticalInput = moveDirection.y;
 
         theRB.linearVelocity = new Vector2(_horizontalInput * moveSpeed, theRB.linearVelocity.y);
+    }
+
+    void quantumHorizontalMovement()
+    {
+
+        if(moveLeft.triggered) 
+        {
+            theRB.transform.position += Vector3.left * horizontalMovementScale;
+        }
+        if (moveRight.triggered)
+        {
+            theRB.transform.position += Vector3.right * horizontalMovementScale;
+        }
     }
 
     void ApplyFalling() {
